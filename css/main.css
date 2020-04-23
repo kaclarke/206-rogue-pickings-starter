@@ -242,6 +242,38 @@ footer span {
 		align-items: center;
 	}
 
+	header {
+		height: 150px;
+		flex-flow: row wrap;
+	}
+	header h1 {
+		width: 33%;
+		font-size: 2em;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		border: 1px solid gold;
+	}
+	header nav {
+		width: 66%;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	header nav ul li {
+		display: inline-block;
+	}
+	header nav ul li a {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 14px;
+		color: #77a466;
+		font-variant: small-caps;
+		font-weight: 700;
+		list-style: none;
+		padding-left: 20px;
+	}
+
 	.container{
 		max-width: 1280px;
 		margin: 0 auto;
@@ -253,6 +285,7 @@ footer span {
 
 	.bottom-section {
 		flex-flow: row nowrap;
+		align-items: flex-start;
 	}
 	
 	.section-one,
@@ -269,5 +302,4 @@ footer span {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
-
 }
