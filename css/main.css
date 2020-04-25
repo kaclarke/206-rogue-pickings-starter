@@ -11,8 +11,8 @@ body {
 }
 
 .container{
-	max-width: 360px;
-	margin: 0 auto;
+	max-width: 1200px;
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -56,7 +56,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: column wrap;
-	border: 2px solid hotpink;
 }
 
 header h1 {
@@ -74,7 +73,6 @@ header nav {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	border: 2px solid darkblue;
 }
 header nav ul {
 	margin: 0;
@@ -99,26 +97,17 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	width: 100%;
-	margin: 0 auto;
-	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column wrap;
-	border: 2px solid red;
 }
 
-.main-image {
-	height: auto;
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	height: auto;
-}
 .main-title h3 {
 	text-align: left;
 	padding: 0px 10px 0px 10px;
@@ -135,9 +124,7 @@ header nav ul li a{
 .section-two,
 .section-three {
 	width: 100%;
-	height: auto;
 	border-top: 1px solid #eee;
-	border: 2px solid rebeccapurple;
 }
 
 .section-one h4 {
@@ -179,13 +166,10 @@ header nav ul li a{
 footer {
 	height: 50px;
 	border-top: 3px solid #eee;
-	margin: 0 auto;
-	clear: both;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid green;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -206,7 +190,6 @@ footer span {
 
 	.container{
 		max-width: 1199px;
-		margin: 0 auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -215,16 +198,15 @@ footer span {
 
 	.bottom-section {
 		flex-flow: row nowrap;
+		align-items: flex-start;
 	}
 	
 	.section-one,
 	.section-two,
 	.section-three {
 		width: 33%;
-		height: auto;
 		border-top: 1px solid #eee;
 		border-bottom: 1px solid #eee;
-		border: 2px solid rebeccapurple;
 	}
 
 	.section-two {
@@ -246,6 +228,7 @@ footer span {
 		height: 150px;
 		flex-flow: row wrap;
 		padding: 0px 30px 0px 30px;
+		border: none;
 	}
 	header h1 {
 		width: 33%;
@@ -253,7 +236,7 @@ footer span {
 		text-align: left;
 		margin: 0;
 		padding: 0;
-		border: 1px solid gold;
+		border: none;
 	}
 	header nav {
 		width: 66%;
@@ -277,7 +260,6 @@ footer span {
 
 	.container{
 		max-width: 1280px;
-		margin: 0 auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -297,10 +279,8 @@ footer span {
 	.section-two,
 	.section-three {
 		width: 33%;
-		height: auto;
 		border-top: 1px solid #eee;
 		border-bottom: 1px solid #eee;
-		border: 2px solid rebeccapurple;
 	}
 
 	.section-two {
